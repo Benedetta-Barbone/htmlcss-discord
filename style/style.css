@@ -27,8 +27,9 @@ header{
 button{
     border-radius: 25%;
     padding: 0.6rem 0.8rem;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
+    margin-top: 0.3rem;
 }
 
 .btn-white{
@@ -42,12 +43,30 @@ button{
     background-color: #23272a;
 }
 
+.btn-violet, .btn-registrati{
+    background-color: #7289da;
+    color: white;      
+}
+
+.btn-violet{
+    margin: 3rem 12rem;
+}
+
+.btn-registrati{
+    margin: 0 auto
+}
+
+
 ul{
     list-style-type: none;
 }
 
 ul>li{
     padding: 0.3rem 1rem;
+}
+
+.icons{
+    padding-right: 0.8rem;
 }
 
 
@@ -59,12 +78,8 @@ ul>li{
     color: white;
 }
 
-.padding{
-    padding: 0.3rem 0rem;
-}
-
 p{
-    padding-bottom: 2rem;
+    line-height: 1.5rem;
 }
 
 h1{
@@ -76,6 +91,7 @@ h1{
     font-size: 40px;
 
 }
+
 
 .container{
     display: flex;
@@ -99,6 +115,7 @@ h1{
 
 .column{
     flex-direction: column;
+    text-align: center;
 }
 
 footer{
@@ -118,8 +135,14 @@ footer{
     
 }
 
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    padding: 1.8rem 3rem 0;
+}
+
 .font-blue{
-    color: violet;
+    color: #7089da;
 }
 
 .bold{
@@ -131,17 +154,10 @@ footer{
     font-size: 24px;
 }
 
-.no-padd-top{
-    padding-top: 0;
-}
-
-.no-padd-bottom{
-    padding-bottom: 0;
-}
 
 hr{
     width: 90%;
-    color: violet;
+    color: #7089da;
     margin: 0 auto;
 }
 
@@ -149,5 +165,5 @@ hr{
     display: flex;
     justify-content: space-between;
     padding: 1rem 0rem;
-    margin: 0 4rem;
+    margin: 0 3rem;
 }
